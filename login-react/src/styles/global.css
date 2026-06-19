@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-size: 100%;
+}
+body {
+    background-color: var(--bg-dark);
+    color:var(--text-main);
+    font-family: Arial, sans-serif;
+}
+.form{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2.4rem;
+}
+.formRow {
+    background-color: var(--bg-card);
+    padding: 3rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    width: 30rem;
+}
+.formRow h1 {
+    text-align: center;
+}
